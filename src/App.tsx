@@ -9,7 +9,7 @@ function App() {
     <Container>
       <h1>This is a h1 tag</h1>
       <div className="h-screen w-full flex justify-center items-center">
-        <Button className={"bg-green-500"}/>
+        <Button className={"bg-green-500"} outline={true}/>
       </div>
     </Container>
   )
